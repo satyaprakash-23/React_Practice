@@ -2,7 +2,6 @@
   "name": "react_machine_coding",
   "version": "1.0.0",
   "description": "Its Our React Practice PlayGround",
-  "main": "index.js",
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
@@ -19,8 +18,11 @@
   },
   "homepage": "https://github.com/satyaprakash-23/React_Practice#readme",
   "dependencies": {
-    "parcel": "^2.14.4",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-router": "^7.4.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.4"
   }
 }

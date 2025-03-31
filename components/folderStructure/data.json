@@ -1,0 +1,114 @@
+[
+    {
+        "name" : ".git",
+        "isFolder": true,
+        "children": []
+    },
+    {
+        "name": ".parcel-cache",
+        "isFolder": true,
+        "children": []
+    },
+    {
+        "name": "components",
+        "isFolder": true,
+        "children": [
+            {
+                "name": "dummy",
+                "isFolder": true,
+                "children": [
+                    {
+                        
+                        "name": "dummy2",
+                        "isFolder": true,
+                        "children": [
+                            {
+                                "name": "dummy3",
+                                "isFolder": true,
+                                "children": [
+                                    {
+                                        "name": "dummy3File",
+                                        "isFolder": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "dummy2File",
+                                "isFolder": false
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "name": "dummyFile",
+                        "isFolder": false
+                    }
+                ]
+            },
+            {
+                "name": "folderStructure",
+                "isFolder": true,
+                "children": [
+                    {
+                        "name": "data.json",
+                        "isFolder": false
+                    }
+                ]
+            },
+            {
+                "name": "pagination",
+                "isFolder": true,
+                "children": [
+                    {
+                        "name": "App.js",
+                        "isFolder": false
+                    },
+                    {
+                        "name": "Header.js",
+                        "isFolder": false
+                    },
+                    {
+                        "name": "index.js",
+                        "isFolder": false
+                    },
+                    {
+                        "name": "OtpInput.js",
+                        "isFolder": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name" : ".dist",
+        "isFolder": true,
+        "children": []
+    },
+    {
+        "name" : "node_modules",
+        "isFolder": true,
+        "children": []
+    },
+    {
+        "name" : "gitignore",
+        "isFolder": false  
+    },
+    {
+        "name" : "index.html",
+        "isFolder": false  
+    },
+    {
+        "name" : "package_lock_json",
+        "isFolder": false  
+    },
+    {
+        "name" : "package.json",
+        "isFolder": false  
+    },
+    {
+        "name" : "style.css",
+        "isFolder": false  
+    }
+
+
+]
