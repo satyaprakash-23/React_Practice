@@ -7,6 +7,7 @@ const Header = () => {
       <ul className="nav">
       <li><Link to="otpInput"> OTP Input</Link></li>
        <li><Link to="Pagination">Pagination</Link></li>
+       <li><Link to="structure">File/Folder Structure</Link></li>
       </ul>
     </div>
   );

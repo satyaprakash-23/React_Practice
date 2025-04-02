@@ -5,6 +5,7 @@ import App from "./App"
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router";
 import OtpInput from "./OtpInput";
 import Pagination from "./pagination/Pagination";
+import Structure from "./folderStructure/Structure";
 
 
 const rootElement = document.getElementById("root");
@@ -35,6 +36,10 @@ const appRouter = createBrowserRouter([
             {
                 path: "Pagination",
                 element: <Pagination />
+            },
+            {
+                path: "structure",
+                element: <Structure />
             },
         ],
     }
