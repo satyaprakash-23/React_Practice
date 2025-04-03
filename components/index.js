@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router";
 import OtpInput from "./OtpInput";
 import Pagination from "./pagination/Pagination";
 import Structure from "./folderStructure/Structure";
+import SearchBox from "./searchBar/SearchBox";
 
 
 const rootElement = document.getElementById("root");
@@ -40,6 +41,10 @@ const appRouter = createBrowserRouter([
             {
                 path: "structure",
                 element: <Structure />
+            },
+            {
+                path: "searchBar",
+                element: <SearchBox />
             },
         ],
     }

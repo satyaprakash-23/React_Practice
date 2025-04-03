@@ -37,7 +37,7 @@ body {
 
 .box {
   width: 150px;
-  height : 200px;
+  height: 200px;
   margin: 4px;
   border-width: 2px;
   border-style: solid;
@@ -59,21 +59,20 @@ body {
   height: 100px;
 }
 
-.pagination{
+.pagination {
   display: flex;
 
-  
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.buttons{
+.buttons {
   width: 100%;
   justify-content: center;
 }
 
-.mainBox{
+.mainBox {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -81,27 +80,27 @@ body {
   justify-content: center;
 }
 
-.activeBtn{
+.activeBtn {
   background-color: rgb(81, 151, 231);
 }
 
-.indent{
+.indent {
   margin-left: 2rem;
 }
 
-.structure{
+.structure {
   display: flex;
   justify-content: center;
 }
 
-.border{
+.border {
   border: 2px;
   border-style: solid;
   width: 50%;
   padding: 15px;
 }
 
-.folder{
+.folder {
   border: 2px;
   border-style: solid;
 }
@@ -113,12 +112,12 @@ body {
 /* .compress :nth-child(2){
   display: none;
 }  */
-.folderName{
+.folderName {
   display: flex;
   align-items: center;
 }
 
-.folderBox{
+.folderBox {
   display: flex;
   gap: 10px;
   align-items: center;
@@ -126,5 +125,48 @@ body {
   border-style: solid;
   width: 80%;
   border-radius: 10px;
-  
+}
+
+.searchMain {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px;
+  border-style: solid;
+}
+
+.searchInput {
+  height: 80%;
+  border: 2px;
+  border-style: solid;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* align-items: center; */
+}
+
+.inputBar {
+  margin-top: 10%;
+  width: 50%;
+  padding: 5px;
+  border: 1px solid blue;
+}
+
+.results{
+  max-height: 300px;
+  padding: 10px;
+  overflow-y: auto;
+  width: 50%;
+  padding: 5px;
+  border: 1px solid blue;
+}
+
+.res{
+  padding: 10px;
+}
+
+.default{
+  display: none;
 }
